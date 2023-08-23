@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouplearn</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+        <ul class="nav">
+            <li class="title"><a href="index.html" class="nav-link " id="logo"><ion-icon id="groplogo" name="leaf-sharp"></ion-icon>Grouplearn</a></li>
+            <li class="nav-item dropdown " data-bs-target=".target">
+                <a href="course.html" class="nav-link "  >
+                    Courses
+                </a>
+                
+              
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">Leaderboard</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Discuss</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Feed</a></li>
+            <li class="nav-item"><a href="" class="nav-link btn btn-success me-3" id="update"><ion-icon id="icon1" name="rocket-outline"></ion-icon>Go PRO</a></li>
+            <li  class="dropdown" ><ion-icon data-bs-toggle="dropdown"name="menu" class="menu-icon dropdown-toggle " ></ion-icon>
+            <ul class="dropdown-menu mt-4">
+                <li class="dropdown-item"><a href="course.html" class="nav-link"> Courses</a></li>
+                <li class="dropdown-item"><a href="" class="nav-link">Leaderboard</a></li>
+                <li class="dropdown-item"><a href="" class="nav-link">Discuss</a></li>
+                <li class="dropdown-item"><a href="" class="nav-link">Feed</a></li>
+            </ul>
+            </li>
+        </ul>
+<div class="row profile-log ">
+    <div class="col-sm-6 profile ">
+        <span class="profile ">
+            
+        <input type="file" id="input" onchange="loadFile(event)">
+        <img src="./images/download.png" id="output">
+        <label for="input" class="btn btn-dark text-white mt-2" id="change"><ion-icon name="camera-outline" class=" me-1 camera-icon"></ion-icon>Change</label>
+          </span>
+    </div>
+    <div class="col-sm-6 address">
+        <span class="">
+            <h3 id="name">Name</h3>
+        <h4 id="country"><small id="flag"></small>Country</h4>
+        </span>
+        
+    </div>
+    </div>
+        <div id="go-pro">
+            <div class="start ">
+                <p>Grouplearn<small class="ms-1 badge rounded-pill bg-warning">PRO</small></p>
+            <p>Get 14 days of Free PRO experience.</p>
+            </div>
+            <div class="end">
+    <Button class="btn btn-warning pro-btn">Start Today</Button>
+            </div>
+        </div>
+        
+         
+    
+         
+
+
+    <script src="./Bootstrap/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="./Bootstrap/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+<!-- <span class="profile">
+        <label for="input">Change</label>
+    <input type="file" id="input" onchange="loadFile(event)">
+    <img src="./images/download.png" id="output">
+      </span>-->
